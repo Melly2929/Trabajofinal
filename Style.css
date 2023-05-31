@@ -1,0 +1,215 @@
+body{background-color:rgb(142, 218,250);
+    font-family:  Helvetica;
+    background-image: url("./imagenes/fondo_cielo.png");
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+h1{ font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px 8px black;
+
+}
+
+.boxes{ 
+    display: grid;
+    grid-template-rows: auto;
+}
+.box1 {border-bottom: 45px solid;
+    border-color: rgb(215, 226, 233);
+
+}
+.box2 {border-bottom: 45px solid;
+    border-color: rgb(215, 226, 233);
+    
+
+}
+.box3 {border-bottom: 45px solid;
+    border-color: rgb(215, 226, 233);
+
+}
+.box4 {border-bottom: 45px solid;
+    border-color: rgb(215, 226, 233);
+
+}
+.box5 {border-bottom: 45px solid;
+    border-color: rgb(215, 226, 233);
+
+}
+
+.titulos_secundarios 
+{ font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    font-family: Helvetica;
+
+}
+
+
+.video{ width: 720px ;
+    align-items: center;
+
+}
+.subtitulos {
+    font-size: 15px;
+    text-align: left;
+    color: rgb(31, 29, 29);
+    font-weight: bolder;
+    font-family: Helvetica;
+}
+
+
+.pbody {background-color: rgb(111, 179, 247) ;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    
+
+}
+
+.header {background-color:rgb(142, 218,250);
+padding:0em;
+background-image: url("./imagenes/fondobody.jpg");
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ border-bottom: 9px solid;
+ border-color: rgb(215, 226, 233);
+
+
+
+}
+
+.logo {float: calc(50fr, 50fr);
+    background-image: url(./imagenes/fondoboton.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position-x: -10;
+
+}
+
+
+.carrusel {
+   
+   width: 550px;
+   height: fit-content;
+
+
+  }
+
+.footerstilo{ 
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5px;
+    font-size: small;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+.botones_redes{
+  background-color: transparent;
+
+}
+
+.colabora{background-color: transparent;
+
+}
+
+ul { list-style: none;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li {margin: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 6px;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+li a {text-decoration: none;
+
+}
+
+form { border-style: solid;
+    border-color: midnightblue;
+    border-radius:5px ;
+    padding-right: 30em;
+    border-width: 10px;
+    display: flex;
+    flex-direction: column;
+}
+form h1 {font-size: 25px;
+
+}
+
+.apadrina {
+    width: 22%;
+    padding: 20px;
+    margin: 2px;
+    float: left;
+    font-style: normal;
+    background-color: rgba(10, 1, 61, 0.479);
+    border-radius: 5px;
+    
+  }
+
+  .integrantes {
+    width: 14%;
+    padding: 12px;
+    margin: 2px;
+    float:right;
+    font-style: normal;
+    background-color: rgba(19, 1, 53, 0.37);
+    border-radius: 5px;
+  }
+
+  .imagen-aside{width: 100%;
+
+  }
+  .titulo_tarjeta {font-size:25px ; font-family:Helvetica; color: black;
+  }
+.textotarjeta {
+    background-color: rgb(213, 229, 243);
+    font-family: sans-serif;
+    font-style: italic;
+color: black;
+}
+.btnapadrina {margin: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 6px;
+    font-family: Helvetica;
+
+}
+.abtnapadrina {
+    text-decoration: none;
+}
+
+   
+
+    @media only screen and (max-width: 600px) {
+        aside {
+          display: none;
+        }
+      }
+
+      
+
+
+
+
+    
+    
